@@ -15,6 +15,7 @@ require('module-alias')();
 require('dotenv').config();
 require('@/src/utils.js');
 require('@/src/manager.js');
+require('@/server/index.js');
 
 client.Application.build();
 

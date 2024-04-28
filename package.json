@@ -7,9 +7,16 @@
     "start": "node index.js",
     "test": "nodemon scripts/test.js",
     "watch": "nodemon index.js",
+    "install": "npm i",
     "postinstall": "npx prisma generate"
   },
-  "keywords": ["discord", "bot", "verification", "funcaptcha", "captcha"],
+  "keywords": [
+    "discord",
+    "bot",
+    "verification",
+    "funcaptcha",
+    "captcha"
+  ],
   "author": "ziad",
   "license": "ISC",
   "dependencies": {
@@ -18,9 +25,11 @@
     "canvafy": "^7.1.0",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "funcaptcha": "^1.1.7",
     "handler.dts": "^1.0.16",
     "module-alias": "^2.2.3",
+    "prisma": "^5.13.0",
     "sharp": "^0.33.3"
   },
   "_moduleAliases": {
