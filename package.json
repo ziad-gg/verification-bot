@@ -7,7 +7,6 @@
     "start": "node index.js",
     "test": "nodemon scripts/test.js",
     "watch": "nodemon index.js",
-    "install": "npm i",
     "postinstall": "npx prisma generate"
   },
   "keywords": [
