@@ -1,6 +1,5 @@
 .gitignore
 index.d.ts
-jsconfig.json
 README.md
 docs/*
 scripts/*
