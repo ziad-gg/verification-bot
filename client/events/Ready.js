@@ -7,5 +7,5 @@ EventBuilder.$N`ready`.$E(Execution).$O().$L();
  * @param {Client} client 
  */
 function Execution(client) {
-    console.log(`Client Is Ready ${client.user.tag}`);
+    console.log(`Client Is Ready (${client.user.tag})`);
 };
