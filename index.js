@@ -13,7 +13,7 @@ new Application(client, {
 
 require('module-alias')();
 require('dotenv').config();
-require('@/src/utils.js');
+require('@/src/based.js');
 require('@/src/manager.js');
 require('@/server/index.js');
 

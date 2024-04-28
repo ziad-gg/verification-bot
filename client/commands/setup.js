@@ -1,7 +1,7 @@
 const { Message, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { CommandBuilder } = require('handler.dts');
 
-const { GenerateButtons, DumpCallBack } = require('@/src/utils');
+const { GenerateButtons, DumpCallBack } = require('@/src/based');
 
 CommandBuilder.$N`setup`.$M(Execution);
 

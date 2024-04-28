@@ -3,7 +3,7 @@ const { EventBuilder } = require('handler.dts');
 const funcaptcha = require('funcaptcha');
 
 const Base = require('@/src/base.js');
-const { GetChallengeImage, GenerateButtons, GenerateVerificationImage } = require('@/src/utils');
+const { GetChallengeImage, GenerateButtons, GenerateVerificationImage } = require('@/src/based');
 
 EventBuilder.$N`interactionCreate`.$E(Execution).$L();
 

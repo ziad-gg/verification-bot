@@ -1,7 +1,7 @@
 const { ButtonInteraction, ModalBuilder } = require('discord.js');
 const { EventBuilder } = require('handler.dts');
 
-const { GenerateTextInput } = require('@/src/utils');
+const { GenerateTextInput } = require('@/src/based');
 
 EventBuilder.$N`interactionCreate`.$E(onEmbedEditRequest).$L();
 

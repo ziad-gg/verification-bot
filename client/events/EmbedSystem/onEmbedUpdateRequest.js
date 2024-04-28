@@ -1,7 +1,7 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ModalSubmitInteraction } = require('discord.js');
 const { EventBuilder } = require('handler.dts');
 
-const { DumpCallBack } = require('@/src/utils');
+const { DumpCallBack } = require('@/src/based');
 
 EventBuilder.$N`interactionCreate`.$E(onEmbedUpdateRequest).$L();
 
