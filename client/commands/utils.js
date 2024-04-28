@@ -48,4 +48,4 @@ function formatUptime(uptime) {
     const days = Math.floor(uptime / (1000 * 60 * 60 * 24));
 
     return `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
-}
+};
