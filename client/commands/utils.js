@@ -37,6 +37,10 @@ function PingExecution(message) {
     message.reply({ embeds: [embed] });
 }
 
+/**
+ * @param {number} uptime 
+ * @returns {string}
+ */
 function formatUptime(uptime) {
     const seconds = Math.floor((uptime / 1000) % 60);
     const minutes = Math.floor((uptime / (1000 * 60)) % 60);
